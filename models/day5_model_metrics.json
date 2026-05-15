@@ -1,0 +1,25 @@
+{
+  "all_models": {
+    "LinearRegression": {
+      "MAE": 2.1435608848341268,
+      "RMSE": 4.355533145328974,
+      "R2": 0.17422915739036782
+    },
+    "RandomForestRegressor": {
+      "MAE": 1.8307817424242463,
+      "RMSE": 4.259061444033129,
+      "R2": 0.21040441891811668
+    },
+    "HistGradientBoostingRegressor": {
+      "MAE": 2.1979139123839744,
+      "RMSE": 4.517451586866742,
+      "R2": 0.11169130725407728
+    }
+  },
+  "best_model": "RandomForestRegressor",
+  "best_metrics": {
+    "MAE": 1.8307817424242463,
+    "RMSE": 4.259061444033129,
+    "R2": 0.21040441891811668
+  }
+}
