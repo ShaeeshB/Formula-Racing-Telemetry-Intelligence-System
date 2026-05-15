@@ -1,24 +1,23 @@
-# Virtual Environment
+# Virtual environment
 .venv/
+
 # Python cache
 __pycache__/
 *.pyc
+
 # Jupyter
 .ipynb_checkpoints/
+
+# FastF1 cache
+cache/
+
+# VS Code
+.vscode/
+
+# Large datasets (optional)
+# data/raw/
+# data/processed/
+
 # OS files
 .DS_Store
 Thumbs.db
-# FastF1 cache
-.fastf1_cache/
-# Data files
-data/raw/*
-data/processed/*
-# Keep folders
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-# Model files
-models/*
-!models/.gitkeep
-# Figures
-reports/figures/*
-!reports/figures/.gitkeep

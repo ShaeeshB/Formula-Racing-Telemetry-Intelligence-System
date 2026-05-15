@@ -1,86 +1,87 @@
 # Formula Racing Telemetry Intelligence System
 
-An AI-powered motorsport analytics platform for analyzing Formula 1 telemetry, predicting lap performance, estimating tire degradation, and recommending pit strategy.
+An AI-powered motorsport analytics platform for Formula 1 telemetry analysis, lap-time prediction, tire degradation analysis, and race strategy intelligence.
 
 ---
 
-## Project Goals
+# Project Overview
 
-- Analyze Formula 1 telemetry data
-- Predict lap times using machine learning
-- Estimate tire degradation trends
-- Recommend pit windows and strategy
-- Compare driver performance
-- Build an interactive telemetry dashboard
+This project uses Formula 1 telemetry data collected through FastF1 and applies machine learning techniques to analyze race performance and predict future lap times.
+
+The long-term goal is to simulate a lightweight race-engineering analytics system capable of:
+- telemetry analysis
+- lap-time prediction
+- tire degradation estimation
+- driver comparison
+- pit strategy recommendations
+- interactive dashboards
 
 ---
 
-## Tech Stack
+# Current Features
 
-### Languages
+## Telemetry Data Pipeline
+- FastF1 session loading
+- Multi-session race collection
+- Combined lap exports
+- Per-driver CSV exports
+- Raw + processed dataset structure
+
+## Data Processing
+- Cleaning and preprocessing pipeline
+- Lap-time normalization
+- Feature engineering
+- Next-lap prediction target generation
+
+## Exploratory Data Analysis
+- Lap-time trends
+- Tire compound analysis
+- Driver pace comparison
+- Race progression visualization
+
+## Machine Learning
+- Leakage-free next-lap prediction pipeline
+- Linear Regression baseline
+- Random Forest Regressor
+- HistGradientBoostingRegressor
+- Model evaluation and persistence
+
+---
+
+# Tech Stack
+
+## Languages
 - Python
 
-### Data & Analytics
+## Data & ML
 - Pandas
 - NumPy
 - Scikit-learn
 - FastF1
 
-### Visualization
-- Plotly
+## Visualization
 - Matplotlib
+- Plotly
 - Streamlit
 
-### Tools
+## Tools
 - Git
 - GitHub
 - VS Code
 
 ---
 
-## Current Progress
+# Current Best Model
 
-### Week 1
-- Repository setup complete
-- Virtual environment configured
-- FastF1 telemetry integration working
-- Initial race session loaded successfully
-- CSV export pipeline working
+| Model | RMSE | R² |
+|---|---|---|
+| RandomForestRegressor | ~4.26s | ~0.21 |
 
-### Week 1 — Data Pipeline Progress
-- Multiple Formula 1 race sessions collected
-- Combined race CSV export working
-- Per-driver CSV export working
-- Initial preprocessing pipeline created
-- Raw and processed data folders structured
+The current model predicts the next lap time using historical race context and telemetry-derived features.
 
 ---
 
-## Planned Features
-
-- Lap time prediction
-- Tire degradation analysis
-- Driver comparison
-- Pit strategy recommendation
-- Telemetry visualization dashboard
-- Interactive web application
-
----
-
-## Current Capabilities
-
-The system can currently:
-
-- Load Formula 1 sessions using FastF1
-- Cache telemetry data locally
-- Export combined session CSVs
-- Export per-driver lap CSVs
-- Process and clean raw lap data
-- Organize datasets into raw and processed pipelines
-
----
-
-## Folder Structure
+# Project Structure
 
 ```text
 motorsport-telemetry-ai/
@@ -90,17 +91,23 @@ motorsport-telemetry-ai/
 │   └── processed/
 │
 ├── notebooks/
+│   ├── 01_day1_fastf1_test.py
+│   ├── 02_day2_collect_data.py
+│   └── 03_day3_eda.py
+│
+├── scripts/
+│   ├── check_environment.py
+│   ├── process_raw_data.py
+│   ├── day4_feature_engineering.py
+│   └── day5_train_model.py
 │
 ├── src/
 │   ├── config.py
 │   ├── data_loader.py
 │   └── preprocess.py
 │
-├── scripts/
-│   └── process_raw_data.py
-│
-├── app/
 ├── models/
+│
 ├── reports/
 │   └── figures/
 │
