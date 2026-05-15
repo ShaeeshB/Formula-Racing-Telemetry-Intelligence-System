@@ -1,20 +1,20 @@
 # Formula Racing Telemetry Intelligence System
 
-An AI-powered motorsport analytics platform for Formula 1 telemetry analysis, lap-time prediction, tire degradation analysis, and race strategy intelligence.
+An AI-powered motorsport analytics platform for Formula 1 telemetry analysis, next-lap prediction, tire degradation analysis, and race strategy intelligence.
 
 ---
 
 # Project Overview
 
-This project uses Formula 1 telemetry data collected through FastF1 and applies machine learning techniques to analyze race performance and predict future lap times.
+This project uses Formula 1 telemetry and lap data collected through FastF1 and applies machine learning techniques to analyze race performance and predict future lap times.
 
-The long-term goal is to simulate a lightweight race-engineering analytics system capable of:
+The goal is to simulate a lightweight race-engineering analytics system capable of:
 - telemetry analysis
-- lap-time prediction
+- next-lap prediction
 - tire degradation estimation
 - driver comparison
 - pit strategy recommendations
-- interactive dashboards
+- interactive dashboard visualization
 
 ---
 
@@ -31,13 +31,14 @@ The long-term goal is to simulate a lightweight race-engineering analytics syste
 - Cleaning and preprocessing pipeline
 - Lap-time normalization
 - Feature engineering
-- Next-lap prediction target generation
+- Leakage-free next-lap target generation
 
 ## Exploratory Data Analysis
-- Lap-time trends
+- Lap-time trend visualization
 - Tire compound analysis
 - Driver pace comparison
-- Race progression visualization
+- Race progression analysis
+- Residual analysis
 
 ## Machine Learning
 - Leakage-free next-lap prediction pipeline
@@ -45,72 +46,40 @@ The long-term goal is to simulate a lightweight race-engineering analytics syste
 - Random Forest Regressor
 - HistGradientBoostingRegressor
 - Model evaluation and persistence
+- Feature importance analysis
 
----
-
-# Tech Stack
-
-## Languages
-- Python
-
-## Data & ML
-- Pandas
-- NumPy
-- Scikit-learn
-- FastF1
-
-## Visualization
-- Matplotlib
-- Plotly
-- Streamlit
-
-## Tools
-- Git
-- GitHub
-- VS Code
+## Strategy Intelligence
+- Pit-window recommendation logic
+- Pace degradation detection
+- Simple race-strategy rule engine
 
 ---
 
 # Current Best Model
 
-| Model | RMSE | R² |
-|---|---|---|
-| RandomForestRegressor | ~4.26s | ~0.21 |
+| Model | MAE | RMSE | R² |
+|---|---|---|---|
+| RandomForestRegressor | ~1.83s | ~4.26s | ~0.21 |
 
 The current model predicts the next lap time using historical race context and telemetry-derived features.
 
 ---
 
-# Project Structure
+# Evaluation Outputs
 
+The project currently generates:
+- Actual vs predicted lap-time plots
+- Residual distribution analysis
+- Permutation feature importance analysis
+- Pit recommendation reports
+
+Saved outputs:
 ```text
-motorsport-telemetry-ai/
+reports/
+├── figures/
+│   ├── day6_actual_vs_predicted.png
+│   ├── day6_residual_distribution.png
+│   └── day6_feature_importance.png
 │
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   ├── 01_day1_fastf1_test.py
-│   ├── 02_day2_collect_data.py
-│   └── 03_day3_eda.py
-│
-├── scripts/
-│   ├── check_environment.py
-│   ├── process_raw_data.py
-│   ├── day4_feature_engineering.py
-│   └── day5_train_model.py
-│
-├── src/
-│   ├── config.py
-│   ├── data_loader.py
-│   └── preprocess.py
-│
-├── models/
-│
-├── reports/
-│   └── figures/
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
+└── day6_pit_recommendations.csv
+

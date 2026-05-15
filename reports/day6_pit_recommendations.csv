@@ -1,0 +1,199 @@
+Driver,LapNumber,Stint,PredictedNextLapTime,PreviousLapTimeSeconds,PreviousLapTimeRollingMean3,Recommendation,Reason
+GAS,7.0,1.0,86.44890499999993,86.042,86.266,Keep going,No strong degradation signal detected.
+HUL,22.0,2.0,86.84113500000011,85.735,85.72466666666666,Keep going,No strong degradation signal detected.
+NOR,36.0,3.0,83.62689499999999,83.137,90.01566666666668,Keep going,No strong degradation signal detected.
+HAM,52.0,3.0,83.17397000000003,82.737,82.47533333333332,Keep going,No strong degradation signal detected.
+ALO,37.0,3.0,83.93235000000016,104.152,93.01133333333333,Keep going,No strong degradation signal detected.
+OCO,18.0,1.0,86.69830000000006,86.002,86.45766666666667,Keep going,No strong degradation signal detected.
+HAM,23.0,2.0,84.71182499999998,84.613,84.72266666666667,Keep going,No strong degradation signal detected.
+BOT,4.0,1.0,87.28536499999997,86.918,90.55666666666669,Keep going,No strong degradation signal detected.
+ALO,8.0,1.0,85.80512999999992,85.95,86.02633333333334,Keep going,No strong degradation signal detected.
+PER,11.0,1.0,84.97454499999995,84.841,85.00133333333333,Keep going,No strong degradation signal detected.
+HUL,50.0,3.0,84.20427499999997,83.404,85.17333333333333,Keep going,No strong degradation signal detected.
+MAG,33.0,2.0,85.08593500000008,84.408,84.47966666666666,Keep going,No strong degradation signal detected.
+ALO,19.0,2.0,84.78145499999995,84.882,84.69,Keep going,No strong degradation signal detected.
+ALO,45.0,3.0,83.59757000000003,83.529,83.61566666666666,Keep going,No strong degradation signal detected.
+STR,37.0,3.0,85.64268999999996,89.334,86.351,Keep going,No strong degradation signal detected.
+PIA,14.0,1.0,88.26125999999998,84.67,84.555,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+OCO,3.0,1.0,86.77361499999998,86.837,91.1345,Keep going,No strong degradation signal detected.
+SAI,13.0,1.0,87.59887499999996,85.276,85.00866666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+ALO,25.0,2.0,84.82200499999999,84.588,85.01866666666666,Keep going,No strong degradation signal detected.
+SAI,45.0,2.0,83.889255,83.931,83.854,Keep going,No strong degradation signal detected.
+COL,44.0,2.0,84.98414999999997,85.979,85.13333333333333,Keep going,No strong degradation signal detected.
+STR,28.0,2.0,84.94694000000005,84.437,84.557,Keep going,No strong degradation signal detected.
+STR,3.0,1.0,86.82392500000014,88.342,92.076,Keep going,No strong degradation signal detected.
+NOR,35.0,3.0,82.91114499999996,82.837,91.44133333333332,Keep going,No strong degradation signal detected.
+OCO,19.0,1.0,86.73171000000008,86.234,86.31,Keep going,No strong degradation signal detected.
+PIA,25.0,2.0,83.52422499999987,83.315,83.54066666666667,Keep going,No strong degradation signal detected.
+STR,45.0,3.0,83.82778000000003,83.654,83.76233333333333,Keep going,No strong degradation signal detected.
+PER,44.0,3.0,88.66492000000002,84.537,83.904,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+MAG,45.0,2.0,85.11706999999997,85.205,84.81266666666666,Keep going,No strong degradation signal detected.
+SAI,5.0,1.0,85.22850499999991,85.086,85.39166666666667,Keep going,No strong degradation signal detected.
+SAI,14.0,1.0,89.68225499999993,85.423,85.255,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+RIC,11.0,1.0,88.21985500000004,86.111,85.973,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+PER,35.0,2.0,84.10068999999997,83.611,83.63633333333333,Keep going,No strong degradation signal detected.
+PER,29.0,2.0,84.17328500000002,83.598,83.78566666666667,Keep going,No strong degradation signal detected.
+RIC,1.0,1.0,86.89589000000011,,,Keep going,No strong degradation signal detected.
+RIC,17.0,2.0,85.37068000000008,85.398,85.599,Keep going,No strong degradation signal detected.
+LEC,22.0,2.0,83.74672500000003,83.88,83.96966666666667,Keep going,No strong degradation signal detected.
+VER,52.0,3.0,82.90186500000003,82.574,82.581,Keep going,No strong degradation signal detected.
+PER,48.0,3.0,82.82022500000011,82.971,83.0,Keep going,No strong degradation signal detected.
+SAI,26.0,2.0,83.677,83.687,83.97533333333332,Keep going,No strong degradation signal detected.
+ZHO,26.0,2.0,88.48731000000011,85.583,85.895,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+ALB,24.0,2.0,85.13849999999998,85.132,85.015,Keep going,No strong degradation signal detected.
+ALB,31.0,2.0,85.05850999999998,84.754,84.806,Keep going,No strong degradation signal detected.
+VER,10.0,1.0,86.12394999999997,85.05,85.00333333333333,Keep going,No strong degradation signal detected.
+ALB,11.0,1.0,86.35756,85.711,85.77999999999999,Keep going,No strong degradation signal detected.
+COL,20.0,2.0,85.04551499999998,84.928,91.92066666666666,Keep going,No strong degradation signal detected.
+OCO,5.0,1.0,86.04809999999998,86.297,86.53333333333332,Keep going,No strong degradation signal detected.
+PIA,19.0,2.0,84.12921499999995,84.028,92.739,Keep going,No strong degradation signal detected.
+RIC,49.0,2.0,84.55085999999997,84.518,84.99266666666666,Keep going,No strong degradation signal detected.
+HUL,9.0,2.0,88.53275000000004,85.351,97.137,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+BOT,36.0,2.0,87.27729999999995,85.336,93.90733333333333,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+HAM,29.0,2.0,85.08783999999994,83.64,83.60266666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+VER,39.0,2.0,83.73051499999995,83.427,83.49033333333334,Keep going,No strong degradation signal detected.
+NOR,21.0,2.0,84.01699000000008,83.882,83.98466666666667,Keep going,No strong degradation signal detected.
+MAG,37.0,2.0,84.25032500000003,84.276,84.38266666666668,Keep going,No strong degradation signal detected.
+TSU,2.0,1.0,88.83669500000013,95.235,95.235,Keep going,No strong degradation signal detected.
+ZHO,1.0,1.0,87.07252500000018,,,Keep going,No strong degradation signal detected.
+LEC,2.0,1.0,86.01149000000007,88.179,88.179,Keep going,No strong degradation signal detected.
+GAS,3.0,1.0,87.26677999999994,86.606,90.7395,Keep going,No strong degradation signal detected.
+PER,23.0,1.0,88.31071000000007,85.709,85.89466666666668,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+MAG,30.0,2.0,84.49049999999994,84.799,84.61800000000001,Keep going,No strong degradation signal detected.
+HAM,8.0,1.0,86.78232500000006,85.205,84.965,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+VER,28.0,2.0,83.64473999999997,83.524,83.64766666666667,Keep going,No strong degradation signal detected.
+HAM,24.0,2.0,84.29791500000006,84.132,84.55333333333334,Keep going,No strong degradation signal detected.
+LEC,20.0,2.0,84.93636000000004,84.203,84.116,Keep going,No strong degradation signal detected.
+ALB,40.0,2.0,85.18670499999999,84.971,85.35566666666666,Keep going,No strong degradation signal detected.
+STR,41.0,3.0,87.34051999999998,85.777,84.608,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+NOR,33.0,3.0,85.27860000000004,87.414,85.32266666666666,Keep going,No strong degradation signal detected.
+PIA,6.0,1.0,84.64371,84.66,84.872,Keep going,No strong degradation signal detected.
+ALO,15.0,2.0,86.77459500000003,85.832,93.722,Keep going,No strong degradation signal detected.
+NOR,17.0,2.0,84.10283999999993,84.154,92.47033333333331,Keep going,No strong degradation signal detected.
+ALO,16.0,2.0,85.123095,84.67,92.032,Keep going,No strong degradation signal detected.
+PER,15.0,1.0,86.66199,85.229,84.97466666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+MAG,11.0,1.0,87.43439500000014,85.799,85.85000000000001,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+HUL,43.0,3.0,84.2802150000001,83.624,83.56466666666665,Keep going,No strong degradation signal detected.
+HAM,4.0,1.0,85.5188900000001,85.63,87.11566666666666,Keep going,No strong degradation signal detected.
+STR,46.0,3.0,84.01834000000001,83.427,83.63033333333334,Keep going,No strong degradation signal detected.
+SAI,3.0,1.0,85.54113000000002,85.731,87.538,Keep going,No strong degradation signal detected.
+GAS,38.0,3.0,85.41873000000004,84.386,84.933,Keep going,No strong degradation signal detected.
+SAI,34.0,2.0,83.82855000000004,83.412,83.36533333333334,Keep going,No strong degradation signal detected.
+HAM,35.0,2.0,88.27091999999999,83.531,83.41866666666668,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+MAG,12.0,1.0,87.91702500000001,86.04,85.87466666666667,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+ALO,12.0,1.0,87.10976499999998,85.758,85.853,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+VER,4.0,1.0,86.10056499999999,85.855,87.45966666666668,Keep going,No strong degradation signal detected.
+COL,30.0,2.0,85.16895499999997,85.634,85.04533333333335,Keep going,No strong degradation signal detected.
+PER,28.0,2.0,84.123545,83.784,83.956,Keep going,No strong degradation signal detected.
+RUS,37.0,3.0,85.72098,83.333,90.38,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+OCO,6.0,1.0,86.56853000000001,86.568,86.44366666666667,Keep going,No strong degradation signal detected.
+LEC,3.0,1.0,85.52215499999991,85.396,86.7875,Keep going,No strong degradation signal detected.
+PER,14.0,1.0,86.29016000000009,85.041,84.82266666666665,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+GAS,48.0,3.0,84.42877,83.923,84.58366666666667,Keep going,No strong degradation signal detected.
+STR,6.0,1.0,87.55270000000006,87.234,86.74033333333334,Keep going,No strong degradation signal detected.
+LEC,28.0,2.0,84.58512499999993,83.534,83.48166666666667,Keep going,No strong degradation signal detected.
+STR,7.0,1.0,85.87691500000004,85.558,86.34833333333334,Keep going,No strong degradation signal detected.
+ZHO,37.0,2.0,86.00496999999989,86.606,85.871,Keep going,No strong degradation signal detected.
+OCO,28.0,1.0,87.27722000000007,86.725,86.87566666666667,Keep going,No strong degradation signal detected.
+ALO,35.0,2.0,86.15040500000005,85.083,85.157,Keep going,No strong degradation signal detected.
+PIA,24.0,2.0,83.68207500000003,83.66,83.73666666666666,Keep going,No strong degradation signal detected.
+COL,4.0,1.0,87.35196499999996,86.578,90.10266666666666,Keep going,No strong degradation signal detected.
+OCO,31.0,1.0,92.42289000000002,86.025,86.04566666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+RIC,23.0,2.0,85.13794999999999,85.08,84.94133333333333,Keep going,No strong degradation signal detected.
+HUL,41.0,3.0,84.15671000000006,83.621,83.83999999999999,Keep going,No strong degradation signal detected.
+OCO,33.0,2.0,84.76067999999995,104.71,93.83066666666669,Keep going,No strong degradation signal detected.
+PER,17.0,1.0,86.33220499999997,85.434,85.402,Keep going,No strong degradation signal detected.
+RUS,31.0,2.0,83.71578999999994,83.177,83.35866666666668,Keep going,No strong degradation signal detected.
+GAS,41.0,3.0,85.27071499999985,85.104,84.97466666666666,Keep going,No strong degradation signal detected.
+PER,27.0,2.0,84.02781500000003,83.975,91.03366666666666,Keep going,No strong degradation signal detected.
+HUL,10.0,2.0,85.91359999999992,85.191,85.47466666666668,Keep going,No strong degradation signal detected.
+MAG,21.0,2.0,85.28791000000005,85.154,85.59866666666666,Keep going,No strong degradation signal detected.
+NOR,14.0,1.0,91.53077499999985,85.359,84.82066666666667,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+PER,50.0,3.0,84.50727500000006,83.612,83.29933333333334,Keep going,No strong degradation signal detected.
+BOT,33.0,1.0,95.12427000000021,87.859,86.62833333333333,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+STR,36.0,2.0,86.7655600000001,84.863,84.88866666666667,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+PER,39.0,3.0,84.88692500000005,86.243,91.20266666666669,Keep going,No strong degradation signal detected.
+ZHO,47.0,2.0,86.63287499999993,85.857,86.13566666666668,Keep going,No strong degradation signal detected.
+PIA,31.0,2.0,82.74788000000004,82.968,83.06733333333334,Keep going,No strong degradation signal detected.
+ALO,4.0,1.0,86.09485000000012,86.41,88.68566666666668,Keep going,No strong degradation signal detected.
+STR,34.0,2.0,88.019665,84.947,85.09066666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+VER,6.0,1.0,85.35396499999992,85.218,85.56866666666667,Keep going,No strong degradation signal detected.
+MAG,27.0,2.0,85.07351000000006,85.199,85.278,Keep going,No strong degradation signal detected.
+BOT,17.0,1.0,86.82873500000001,86.569,86.61333333333334,Keep going,No strong degradation signal detected.
+ALB,26.0,2.0,87.90600999999998,84.707,85.01166666666667,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+ALO,21.0,2.0,85.23273500000003,85.676,85.29066666666667,Keep going,No strong degradation signal detected.
+NOR,52.0,3.0,83.24314499999991,82.269,82.657,Keep going,No strong degradation signal detected.
+ALB,45.0,2.0,84.75246499999994,84.678,84.74033333333334,Keep going,No strong degradation signal detected.
+TSU,6.0,1.0,88.37826000000004,92.241,88.368,Keep going,No strong degradation signal detected.
+SAI,31.0,2.0,83.56413500000002,83.584,83.60266666666666,Keep going,No strong degradation signal detected.
+PIA,1.0,1.0,86.03186000000012,,,Keep going,No strong degradation signal detected.
+SAI,41.0,2.0,83.78938999999997,83.803,83.721,Keep going,No strong degradation signal detected.
+VER,42.0,3.0,83.68146500000005,88.738,85.52533333333334,Keep going,No strong degradation signal detected.
+PER,24.0,2.0,84.02482,89.869,87.14733333333334,Keep going,No strong degradation signal detected.
+HAM,3.0,1.0,85.98906000000012,86.043,87.8585,Keep going,No strong degradation signal detected.
+SAI,25.0,2.0,83.62060000000008,83.682,84.155,Keep going,No strong degradation signal detected.
+GAS,15.0,2.0,85.46593500000009,85.214,85.03333333333332,Keep going,No strong degradation signal detected.
+HUL,33.0,3.0,84.78089000000014,89.903,86.891,Keep going,No strong degradation signal detected.
+RUS,7.0,1.0,85.70039499999997,85.101,85.45233333333333,Keep going,No strong degradation signal detected.
+HAM,42.0,3.0,82.59341500000009,82.927,82.96900000000001,Keep going,No strong degradation signal detected.
+ZHO,13.0,1.0,87.64274999999996,86.348,86.32133333333333,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+VER,11.0,1.0,85.25094499999996,84.964,84.97733333333333,Keep going,No strong degradation signal detected.
+VER,45.0,3.0,83.99362500000005,83.045,89.62666666666667,Keep going,No strong degradation signal detected.
+HAM,9.0,1.0,84.89682499999999,84.871,84.99833333333333,Keep going,No strong degradation signal detected.
+HAM,32.0,2.0,84.34898500000004,83.36,83.43733333333334,Keep going,No strong degradation signal detected.
+ALO,9.0,1.0,86.17334500000011,85.693,85.85133333333333,Keep going,No strong degradation signal detected.
+ZHO,38.0,2.0,86.26776499999991,85.205,85.777,Keep going,No strong degradation signal detected.
+MAG,20.0,2.0,85.59617999999999,85.109,85.47033333333333,Keep going,No strong degradation signal detected.
+VER,18.0,1.0,87.99228499999987,85.34,85.44333333333333,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+PER,18.0,1.0,87.95974500000007,85.444,85.47366666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+PER,20.0,1.0,86.71911000000001,85.683,85.52499999999999,Keep going,No strong degradation signal detected.
+COL,14.0,1.0,94.80142499999994,86.41,86.50566666666667,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+HAM,33.0,2.0,84.2831900000001,83.328,83.37766666666666,Keep going,No strong degradation signal detected.
+TSU,3.0,1.0,90.3371900000001,87.538,91.3865,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+GAS,12.0,2.0,86.02289499999989,105.677,94.78666666666668,Keep going,No strong degradation signal detected.
+GAS,4.0,1.0,87.35310999999996,86.646,89.375,Keep going,No strong degradation signal detected.
+HUL,12.0,2.0,85.39158999999985,85.322,85.23566666666666,Keep going,No strong degradation signal detected.
+COL,45.0,2.0,85.14303000000001,85.161,85.25333333333333,Keep going,No strong degradation signal detected.
+BOT,7.0,1.0,86.364955,86.499,87.02166666666666,Keep going,No strong degradation signal detected.
+VER,29.0,2.0,83.66900999999994,83.509,83.55033333333334,Keep going,No strong degradation signal detected.
+VER,5.0,1.0,85.51483499999996,85.633,85.88600000000001,Keep going,No strong degradation signal detected.
+HUL,19.0,2.0,87.06725500000006,85.465,85.53366666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+GAS,25.0,2.0,85.89150500000005,85.882,85.71600000000001,Keep going,No strong degradation signal detected.
+VER,47.0,3.0,82.5993750000001,82.941,83.11633333333334,Keep going,No strong degradation signal detected.
+HUL,1.0,1.0,93.88310999999993,,,Keep going,No strong degradation signal detected.
+VER,46.0,3.0,83.89874999999996,83.363,82.71766666666666,Keep going,No strong degradation signal detected.
+RUS,29.0,2.0,84.69293500000003,83.383,83.56333333333333,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+PER,51.0,3.0,84.46757500000012,83.39,83.43900000000001,Keep going,No strong degradation signal detected.
+LEC,34.0,2.0,83.71146499999995,83.226,83.49066666666666,Keep going,No strong degradation signal detected.
+MAG,39.0,2.0,86.97990000000006,84.803,84.343,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+BOT,34.0,2.0,85.19438999999991,90.924,88.26233333333334,Keep going,No strong degradation signal detected.
+HUL,35.0,3.0,85.96062499999992,83.587,96.68133333333331,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+MAG,8.0,1.0,86.24393500000004,85.825,85.95633333333332,Keep going,No strong degradation signal detected.
+RIC,43.0,2.0,85.41766000000001,84.954,84.97466666666666,Keep going,No strong degradation signal detected.
+RUS,17.0,2.0,84.62712000000012,84.692,84.60000000000001,Keep going,No strong degradation signal detected.
+RUS,34.0,3.0,83.41915500000006,88.264,85.71233333333333,Keep going,No strong degradation signal detected.
+RIC,25.0,2.0,85.50466499999993,84.931,84.953,Keep going,No strong degradation signal detected.
+OCO,27.0,1.0,86.87959999999997,86.383,86.89066666666668,Keep going,No strong degradation signal detected.
+OCO,25.0,1.0,86.79444500000012,86.77,86.43266666666666,Keep going,No strong degradation signal detected.
+STR,24.0,2.0,84.89567000000008,84.659,84.70033333333333,Keep going,No strong degradation signal detected.
+RUS,42.0,3.0,87.08436999999995,84.039,83.35566666666666,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+PIA,34.0,2.0,83.56384999999989,83.148,83.283,Keep going,No strong degradation signal detected.
+ALO,27.0,2.0,85.28025999999998,84.937,84.67633333333333,Keep going,No strong degradation signal detected.
+ALB,30.0,2.0,84.955815,84.871,84.871,Keep going,No strong degradation signal detected.
+VER,3.0,1.0,86.02107000000005,86.17,88.262,Keep going,No strong degradation signal detected.
+PIA,38.0,2.0,83.91842500000004,83.691,83.61533333333334,Keep going,No strong degradation signal detected.
+NOR,3.0,1.0,85.11618000000006,85.458,87.2145,Keep going,No strong degradation signal detected.
+PIA,17.0,2.0,84.52658000000012,89.939,86.71766666666667,Keep going,No strong degradation signal detected.
+COL,11.0,1.0,87.44185499999992,86.289,86.29866666666668,Keep going,No strong degradation signal detected.
+SAI,15.0,1.0,87.82326499999982,85.234,85.31099999999999,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+NOR,18.0,2.0,85.70647499999995,85.585,91.19299999999998,Keep going,No strong degradation signal detected.
+MAG,36.0,2.0,83.89340000000004,84.17,84.575,Keep going,No strong degradation signal detected.
+ALO,14.0,2.0,85.09988000000008,105.594,93.69733333333332,Keep going,No strong degradation signal detected.
+BOT,38.0,2.0,85.96273999999998,85.213,85.221,Keep going,No strong degradation signal detected.
+PIA,10.0,1.0,84.7718749999999,84.375,84.45433333333334,Keep going,No strong degradation signal detected.
+RUS,47.0,3.0,82.28361000000007,82.419,82.67566666666666,Keep going,No strong degradation signal detected.
+MAG,38.0,2.0,83.77949500000005,83.95,84.132,Keep going,No strong degradation signal detected.
+RIC,2.0,1.0,86.5085449999999,93.104,93.104,Keep going,No strong degradation signal detected.
+HAM,48.0,3.0,82.78397499999997,82.471,82.318,Keep going,No strong degradation signal detected.
+RUS,9.0,1.0,90.85244999999992,85.216,85.121,Consider pit window,Predicted next lap is noticeably slower than the previous lap.
+GAS,31.0,3.0,86.38482000000009,91.004,87.63533333333334,Keep going,No strong degradation signal detected.

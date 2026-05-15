@@ -1,17 +1,3 @@
-"""
-Day 5 — Model Training
-
-Goal:
-Train a model to predict the NEXT lap time using leakage-free features.
-
-What this script does:
-- Loads the feature-engineered CSV from Day 4
-- Splits the data safely
-- Trains baseline models
-- Evaluates them using MAE, RMSE, and R²
-- Saves the best model to the models folder
-"""
-
 import sys
 from pathlib import Path
 import json
