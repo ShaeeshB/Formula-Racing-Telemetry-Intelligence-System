@@ -21,3 +21,9 @@ cache/
 # OS files
 .DS_Store
 Thumbs.db
+
+.fastf1_cache/
+data/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
