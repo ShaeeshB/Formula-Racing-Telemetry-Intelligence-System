@@ -1,40 +1,13 @@
-# Virtual environment
 .venv/
-
-# Python cache
+.fastf1_cache/
 __pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+data/raw/
+
 *.pyc
 *.pyo
 *.pyd
 
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# FastF1 cache
-.fastf1_cache/
-
-# Raw data
-data/raw/
-
-# Processed data
-!data/processed/
-
-# Models
-models/*.joblib
-models/*.pkl
-
-# Reports
-reports/figures/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Streamlit
-.streamlit/
-
-# Logs
-*.log
+.env
