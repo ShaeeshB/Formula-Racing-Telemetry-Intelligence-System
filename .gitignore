@@ -4,26 +4,35 @@
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Jupyter
 .ipynb_checkpoints/
 
-# FastF1 cache
-cache/
-
 # VS Code
 .vscode/
 
-# Large datasets (optional)
-# data/raw/
-# data/processed/
+# FastF1 cache
+.fastf1_cache/
+
+# Data folders
+data/raw/
+data/processed/
+
+# Models
+models/*.joblib
+models/*.pkl
+
+# Reports
+reports/figures/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-.fastf1_cache/
-data/
-.venv/
-__pycache__/
-.ipynb_checkpoints/
+# Streamlit
+.streamlit/
+
+# Logs
+*.log

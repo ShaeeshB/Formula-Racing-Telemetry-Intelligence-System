@@ -1,85 +1,212 @@
-# Formula Racing Telemetry Intelligence System
+# 🏎️ Formula Racing Telemetry Intelligence System
 
-An AI-powered motorsport analytics platform for Formula 1 telemetry analysis, next-lap prediction, tire degradation analysis, and race strategy intelligence.
-
----
-
-# Project Overview
-
-This project uses Formula 1 telemetry and lap data collected through FastF1 and applies machine learning techniques to analyze race performance and predict future lap times.
-
-The goal is to simulate a lightweight race-engineering analytics system capable of:
-- telemetry analysis
-- next-lap prediction
-- tire degradation estimation
-- driver comparison
-- pit strategy recommendations
-- interactive dashboard visualization
+An AI-powered motorsport analytics platform for analyzing Formula 1 telemetry, predicting lap performance, estimating tire degradation, and generating pit strategy recommendations.
 
 ---
 
-# Current Features
+# 📊 Features
 
-## Telemetry Data Pipeline
-- FastF1 session loading
-- Multi-session race collection
-- Combined lap exports
-- Per-driver CSV exports
-- Raw + processed dataset structure
-
-## Data Processing
-- Cleaning and preprocessing pipeline
-- Lap-time normalization
-- Feature engineering
-- Leakage-free next-lap target generation
-
-## Exploratory Data Analysis
-- Lap-time trend visualization
-- Tire compound analysis
-- Driver pace comparison
-- Race progression analysis
-- Residual analysis
-
-## Machine Learning
-- Leakage-free next-lap prediction pipeline
-- Linear Regression baseline
-- Random Forest Regressor
-- HistGradientBoostingRegressor
-- Model evaluation and persistence
-- Feature importance analysis
-
-## Strategy Intelligence
-- Pit-window recommendation logic
-- Pace degradation detection
-- Simple race-strategy rule engine
+- Formula 1 telemetry collection using FastF1
+- Multi-session race data pipeline
+- Automated preprocessing and feature engineering
+- Next-lap time prediction using machine learning
+- Tire degradation and race trend analysis
+- Pit strategy recommendation system
+- Interactive F1-style Streamlit dashboard
+- Data visualization with Plotly
 
 ---
 
-# Current Best Model
+# 🧠 Machine Learning
 
-| Model | MAE | RMSE | R² |
-|---|---|---|---|
-| RandomForestRegressor | ~1.83s | ~4.26s | ~0.21 |
+The project currently includes:
 
-The current model predicts the next lap time using historical race context and telemetry-derived features.
+- Feature engineering pipeline
+- Leakage-free next lap prediction
+- Baseline regression models:
+  - Linear Regression
+  - Random Forest Regressor
+  - HistGradientBoosting Regressor
+
+Current best model:
+
+| Metric | Value |
+|---|---|
+| MAE | ~1.83s |
+| RMSE | ~4.26s |
+| R² | ~0.21 |
 
 ---
 
-# Evaluation Outputs
+# 🖥️ Dashboard
 
-The project currently generates:
-- Actual vs predicted lap-time plots
-- Residual distribution analysis
-- Permutation feature importance analysis
-- Pit recommendation reports
+The Streamlit dashboard includes:
 
-Saved outputs:
+- Interactive driver filtering
+- Compound selection
+- Lap range filtering
+- Lap time trend analysis
+- Compound performance comparison
+- Prediction visualization
+- Pit strategy insights
+- Race-control inspired UI
+
+---
+
+# 🛠️ Tech Stack
+
+## Languages
+- Python
+
+## Data & ML
+- Pandas
+- NumPy
+- Scikit-learn
+- FastF1
+
+## Visualization
+- Plotly
+- Matplotlib
+- Streamlit
+
+## Tools
+- Git
+- GitHub
+- VS Code
+
+---
+
+# 📂 Project Structure
+
 ```text
-reports/
-├── figures/
-│   ├── day6_actual_vs_predicted.png
-│   ├── day6_residual_distribution.png
-│   └── day6_feature_importance.png
+Formula-Racing-Telemetry-Intelligence-System/
 │
-└── day6_pit_recommendations.csv
+├── app/
+│   └── streamlit_app.py
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── models/
+│
+├── notebooks/
+│   ├── 01_day1_fastf1_test.py
+│   ├── 02_day2_collect_data.py
+│   └── 03_day3_eda.py
+│
+├── reports/
+│   └── figures/
+│
+├── scripts/
+│   ├── day4_feature_engineering.py
+│   ├── day5_train_model.py
+│   └── day6_evaluate_and_strategy.py
+│
+├── src/
+│   ├── config.py
+│   ├── data_loader.py
+│   └── preprocess.py
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
+---
+
+# 🚀 How To Run
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/ShaeeshB/Formula-Racing-Telemetry-Intelligence-System.git
+cd Formula-Racing-Telemetry-Intelligence-System
+```
+
+---
+
+## 2. Create virtual environment
+
+### Windows PowerShell
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+---
+
+## 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4. Run the dashboard
+
+```bash
+streamlit run app/streamlit_app.py
+```
+
+---
+
+# 📈 Current Capabilities
+
+The system can currently:
+
+- Load Formula 1 sessions using FastF1
+- Cache telemetry data locally
+- Export combined race CSVs
+- Export per-driver telemetry CSVs
+- Process and clean raw race data
+- Generate engineered ML features
+- Train lap prediction models
+- Evaluate prediction accuracy
+- Generate pit strategy recommendations
+- Visualize telemetry in an interactive dashboard
+
+---
+
+# 🔮 Planned Features
+
+- Real-time telemetry streaming
+- Driver-to-driver comparison mode
+- Tire wear prediction
+- Fuel strategy estimation
+- Sector-by-sector pace analysis
+- Live leaderboard simulation
+- Deep learning models
+- Race simulation engine
+
+---
+
+# 📸 Screenshots
+
+## Race Control Dashboard
+
+_Add dashboard screenshots here_
+
+---
+
+# 📌 Status
+
+✅ Week 1 Complete  
+✅ Telemetry Pipeline Complete  
+✅ Feature Engineering Complete  
+✅ Baseline ML Models Complete  
+✅ Dashboard MVP Complete
+
+---
+
+# 👨‍💻 Author
+
+Shaeesh Bhowmik
+
+---
+
+# 📄 License
+
+This project is for educational and research purposes.
