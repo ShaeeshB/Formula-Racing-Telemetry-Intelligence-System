@@ -183,14 +183,6 @@ The system can currently:
 
 ---
 
-# 📸 Screenshots
-
-## Race Control Dashboard
-
-_Add dashboard screenshots here_
-
----
-
 # 📌 Status
 
 ✅ Week 1 Complete  
