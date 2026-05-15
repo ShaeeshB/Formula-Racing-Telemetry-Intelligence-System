@@ -1,12 +1,6 @@
 # Formula Racing Telemetry Intelligence System
 
-<<<<<<< HEAD
-Motorsport telemetry intelligence system using FastF1, machine learning, and data analytics for race performance analysis.
-
-An AI-powered motorsport analytics project that analyzes Formula 1 telemetry, predicts lap performance, estimates tire degradation, and suggests pit strategy.
-=======
 An AI-powered motorsport analytics platform for analyzing Formula 1 telemetry, predicting lap performance, estimating tire degradation, and recommending pit strategy.
->>>>>>> 44e2564 (Add multi-session telemetry collection and preprocessing pipeline)
 
 ---
 
@@ -37,13 +31,6 @@ An AI-powered motorsport analytics platform for analyzing Formula 1 telemetry, p
 - Matplotlib
 - Streamlit
 
-<<<<<<< HEAD
-## Week 1 Progress
-- Repo created
-- Environment setup
-- FastF1 testing in progress
-- Project configuration and telemetry loader added
-=======
 ### Tools
 - Git
 - GitHub
@@ -79,6 +66,7 @@ An AI-powered motorsport analytics platform for analyzing Formula 1 telemetry, p
 - Interactive web application
 
 ---
+
 ## Current Capabilities
 
 The system can currently:
@@ -91,6 +79,7 @@ The system can currently:
 - Organize datasets into raw and processed pipelines
 
 ---
+
 ## Folder Structure
 
 ```text
@@ -118,5 +107,3 @@ motorsport-telemetry-ai/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-```
->>>>>>> 44e2564 (Add multi-session telemetry collection and preprocessing pipeline)
