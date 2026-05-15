@@ -16,9 +16,11 @@ __pycache__/
 # FastF1 cache
 .fastf1_cache/
 
-# Data folders
+# Raw data
 data/raw/
-data/processed/
+
+# Processed data
+!data/processed/
 
 # Models
 models/*.joblib
